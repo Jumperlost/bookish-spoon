@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body .block {
+  margin: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px dotted gainsboro;
+}
+body .block .category {
+  font-weight: 700;
+  font-size: 20px;
+}
+body .block .inner-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+body .block .inner-box .inner {
+  padding: 20px;
+  background-color: rgb(199, 198, 198);
+  border-radius: 5px;
+}
+body .block .inner-box .inner .inner-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .block .inner-box .inner .inner-img img {
+  width: 100px;
+} /*# sourceMappingURL=css.css.map */
